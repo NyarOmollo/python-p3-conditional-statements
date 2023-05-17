@@ -4,7 +4,7 @@
   return "Access granted". Otherwise, return "Access denied".
 */
 function adminLogin(username, password) {
-  if ((username === "admin" || username === "ADMIN") && password === "12345") {
+  if ((username === "admin" || username === "ADMIN") && password === " 12345"){
     return "Access granted";
   } else {
     return "Access denied";
@@ -29,7 +29,7 @@ function howsTheWeather(temperature) {
     response = "perfect";
   }
   return `It's ${response} out there!`;
-}
+}f
 
 /* 
   Write a method `fizzbuzz` takes in a number. For multiples of three, return
